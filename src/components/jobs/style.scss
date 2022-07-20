@@ -1,0 +1,15 @@
+.job {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    &__section {
+        margin: 0 20px;
+        text-align: center;
+        &-title {
+            margin: 20px 0;
+            columns: #000;
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.card {
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 17px -11px #000000;
+    cursor: pointer;
+    &__title {
+        color: #fff;
+        font-size: 1rem;
+        font-family: "Poppins";
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        display: -webkit-inline-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 80px;
+        user-select: none;
+    }
+}

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Jobs from "./components/jobs";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app">
+        <header style={{ padding: "10px", width: "100%", textAlign: "center" }}>
+          <h1
+            style={{
+              color: "#000",
+              fontSize: "2rem",
+              fontFamily: "Poppins",
+              color: "#fff",
+            }}
+          >
+            Job Board Draggble
+          </h1>
+        </header>
+        <main style={{ padding: "20px" }}>
+          <Jobs />
+        </main>
+      </div>
     </div>
   );
 }
